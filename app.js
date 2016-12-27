@@ -55,4 +55,4 @@ setTimeout(function(){
 
 setTimeout(function(){ // mach remove
     process.exit(1)
-}, 15000)
+}, 30000)
