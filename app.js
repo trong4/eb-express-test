@@ -48,3 +48,11 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+setTimeout(function(){
+    throw Error("mach remove. testing error on EB")
+}, 15000)
+
+setTimeout(function(){ // mach remove
+    process.exit(1)
+}, 15000)
