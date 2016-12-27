@@ -48,7 +48,3 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
-
-setTimeout(function(){ // mach remove
-    process.exit(1)
-}, 10000)
